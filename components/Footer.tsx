@@ -3,7 +3,7 @@ import Image from "next/image";
 function Footer() {
   return (
     <footer className="sm:px-16 py-4 px-8 flex justify-between items-center gap-2 flex-wrap bg-[#161921]">
-      <p className="text-base font-bold text-white">@2023 EpicAnimeVault</p>
+      <a href="https://github.com/ManuelP22/next_anime_page" target="_blank" className="text-base font-bold text-white">@2024 ManuelP22</a>
       <Image
         src="./logo.svg"
         alt="logo"
